@@ -2,7 +2,7 @@
 
 Органоїди - це моделі органів, створені в пробірці. Вони корисні для біомедичних досліджень і випробувань ліків, однак вимагають дуже ретельного розроблення. Цей проєкт має на меті висвітлити проблему невідповідності органоїдів органам і тканинам у сучасних дослідженнях та надати інструменти для її ефективної оцінки та усунення.
 
-~Проект був реалізований в рамках програми ScienceMentoring від YO UkrTeenScience, яка об'єднує наставників із учнями середніх шкіл для поглиблення знань про наукову діяльність.~
+_Проект був реалізований в рамках програми ScienceMentoring від YO UkrTeenScience, яка об'єднує наставників із учнями середніх шкіл для поглиблення знань про наукову діяльність._
 
 ## Автори (Authors)
 - Ангеліна (Angelina @amino-acid123) - виконавиця
@@ -35,7 +35,7 @@
 
 Organoids are the in vitro models of organs. They are useful for biomedical studies and drug tests, however require very careful development. This project aims to highlight the problem of organoids non-fidelity to organs and tissues in modern studies and provide tools to assess and troubleshoot it efficiently.
 
-~The project was done under ScienceMentoring program of YO UkrTeenScience, which connects mentors with high-school students to learn more about science activities.~
+_The project was done under ScienceMentoring program of YO UkrTeenScience, which connects mentors with high-school students to learn more about science activities._
 
 ## Authors
 - Angelina @amino-acid123 - executer
