@@ -33,6 +33,7 @@ _Проект був реалізований в рамках програми S
 | Номер SRA* | DOI статті | Вид | Орган/тканина | Органоїд |
 |---------------|-----------|---------|----------------------|----------|
 | ERP142256 | https://doi.org/10.1186/s13046-022-02591-z | _Homo sapiens_ | колоректальний рак | тумороїд |
+| ERP111852 | https://doi.org/10.1016/j.stemcr.2017.11.012 | _Homo sapiens_ | ізольовані зачатки легенів плода | органоїд-попередник легенів плода |
 
 *_Sequence Read Archive (SRA) - база даних необроблених даних секвенування_
 
@@ -71,6 +72,7 @@ _The project was done under ScienceMentoring program of YO UkrTeenScience, which
 | SRA* accession | Paper DOI | Species | Organ/ tissue | Organoid |
 |---------------|-----------|---------|----------------------|----------|
 | ERP142256 | https://doi.org/10.1186/s13046-022-02591-z | _Homo sapiens_ | colorectal cancer | tumoroid |
+| ERP111852 | https://doi.org/10.1016/j.stemcr.2017.11.012 | _Homo sapiens_ | isolated fetal lung buds | fetal lung progenitor organoid |
 
 *_Sequence Read Archive (SRA) - database of raw sequencing data_
 
