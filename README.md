@@ -29,7 +29,12 @@ _Проект був реалізований в рамках програми S
 6. Запустіть код з notebooks/, налаштувавши шлях до вихідних файлів Galaxy.
 
 ## Короткий опис проаналізованих статей
-...
+
+| Номер SRA* | DOI статті | Вид | Орган/тканина | Органоїд |
+|---------------|-----------|---------|----------------------|----------|
+| ERP142256 | https://doi.org/10.1186/s13046-022-02591-z | _Homo sapiens_ | колоректальний рак | тумороїд |
+
+*_Sequence Read Archive (SRA) - база даних необроблених даних секвенування_
 
 # [English] Transcriptomics as navigator towards organoids fidelity
 
@@ -63,5 +68,9 @@ _The project was done under ScienceMentoring program of YO UkrTeenScience, which
 
 ## Short description of analyzed papers
 
-TBA
+| SRA* accession | Paper DOI | Species | Organ/ tissue | Organoid |
+|---------------|-----------|---------|----------------------|----------|
+| ERP142256 | https://doi.org/10.1186/s13046-022-02591-z | _Homo sapiens_ | colorectal cancer | tumoroid |
+
+*_Sequence Read Archive (SRA) - database of raw sequencing data_
 
