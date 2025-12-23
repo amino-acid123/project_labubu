@@ -21,12 +21,12 @@ _Проект був реалізований в рамках програми S
 - Обліковий запис у Galaxy https://usegalaxy.org/
 - Обліковий запис у Google Colab або Python і Jupyter, встановлені на комп'ютері або сервері
 ### Інструкції
-- Завантажте один робочий процес і підпроцеси з workflows/ та імпортуйте їх у Galaxy;
-- Завантажте файли референтного геному, перелічені в описі довідки робочого процесу, за допомогою функції Galaxy «Paste/Fetch data» (Вставити/Завантажити дані);
-- Завантажте файл(и) зі списком зразків з data/ для однієї статті та імпортуйте їх у Galaxy;
-- Завантажте зразки за допомогою інструменту Galaxy «Download and Extract Reads in FASTQ» (Завантажити та витягти дані у форматі FASTQ);
-- Запустіть робочий процес у Galaxy, введіть завантажені файли та параметри, перелічені в описі довідки робочого процесу;
-- Запустіть код з notebooks/, налаштувавши шлях до вихідних файлів Galaxy.
+1. Завантажте один робочий процес і підпроцеси з workflows/ та імпортуйте їх у Galaxy;
+2. Завантажте файли референтного геному, перелічені в описі довідки робочого процесу, за допомогою функції Galaxy «Paste/Fetch data» (Вставити/Завантажити дані);
+3. Завантажте файл(и) зі списком зразків з data/ для однієї статті та імпортуйте їх у Galaxy;
+4. Завантажте зразки за допомогою інструменту Galaxy «Download and Extract Reads in FASTQ» (Завантажити та витягти дані у форматі FASTQ);
+5. Запустіть робочий процес у Galaxy, введіть завантажені файли та параметри, перелічені в описі довідки робочого процесу;
+6. Запустіть код з notebooks/, налаштувавши шлях до вихідних файлів Galaxy.
 
 ## Короткий опис проаналізованих статей
 ...
@@ -54,12 +54,12 @@ _The project was done under ScienceMentoring program of YO UkrTeenScience, which
 - Account in Galaxy https://usegalaxy.org/
 - Account in Google Colab or Python and Jupyter installed on computer or on server
 ### Instructions
-- Download one workflow and subworkflows from workflows/ and import them into Galaxy;
-- Download reference genome files, listed in workflow help description, through Galaxy upload of "Paste/Fetch data";
-- Download sample list file(s) from data/ for one paper and import them into Galaxy;
-- Download samples with Galaxy tool "Download and Extract Reads in FASTQ";
-- Run the workflow in Galaxy, input downloaded files and parameters listed in workflow help description;
-- Run code from notebooks/ adjusting Galaxy output files path.
+1. Download one workflow and subworkflows from workflows/ and import them into Galaxy;
+2. Download reference genome files, listed in workflow help description, through Galaxy upload of "Paste/Fetch data";
+3. Download sample list file(s) from data/ for one paper and import them into Galaxy;
+4. Download samples with Galaxy tool "Download and Extract Reads in FASTQ";
+5. Run the workflow in Galaxy, input downloaded files and parameters listed in workflow help description;
+6. Run code from notebooks/ adjusting Galaxy output files path.
 
 ## Short description of analyzed papers
 
