@@ -1,0 +1,15 @@
+name: /home/project/organoids/conda_envs/organoids
+channels:
+  - defaults
+dependencies:
+  - numpy
+  - python=3.11
+  - seaborn
+  - matplotlib
+  - scipy
+  - pandas
+  - jupyter
+  - openpyxl
+  - gseapy
+  - plotly
+prefix: /home/project/organoids/conda_envs/organoids
