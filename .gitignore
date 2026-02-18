@@ -3,3 +3,4 @@ data/README.md
 notebooks/.ipynb_checkpoints/**
 .ipynb_checkpoints/**
 .ipynb_checkpoints/
+test/**

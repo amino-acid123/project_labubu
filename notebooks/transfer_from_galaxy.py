@@ -6,6 +6,15 @@ Input:
  - Sheet name of Excel file.
  - Full path to directory for download destination (should not end on /).
 """
+"""
+Цей код завантажує набори даних з онлайн-платформи Galaxy.
+Вхідні дані:
+ - Excel-файл повинен містити стовпці 'Source Name', 'New Name', 'Link'
+   та за потреби 'Subfolder'.
+ - Назва аркуша Excel-файлу.
+ - Повний шлях до директорії для завантаження (не повинен закінчуватися на /).
+
+"""
 
 import argparse
 import os
@@ -18,6 +27,7 @@ from datetime import datetime
 def main():
     # -----------------------------
     # Parse arguments
+    # Розбір аргументів командного рядка
     # -----------------------------
     parser = argparse.ArgumentParser(
         description="Download datasets from online Galaxy"
@@ -30,6 +40,7 @@ def main():
 
     # -----------------------------
     # Validate output directory
+    # Перевірка вихідної директорії
     # -----------------------------
     if not os.path.exists(args.o):
         parser.error(f"{args.o} does not exist")
@@ -42,11 +53,13 @@ def main():
 
     # -----------------------------
     # Read Excel file
+    # Зчитування Excel-файлу
     # -----------------------------
     data = pd.read_excel(data_file, sheet_name=sheet_name)
 
     # -----------------------------
     # Check required columns
+    # Перевірка наявності обов’язкових стовпців
     # -----------------------------
     expected_columns = ['Source Name', 'New Name', 'Link']
     missing_columns = [col for col in expected_columns if col not in data.columns]
@@ -56,6 +69,7 @@ def main():
 
     # -----------------------------
     # Create subfolders if needed
+    # Створення підпапок за потреби
     # -----------------------------
     create_subfolders = 'Subfolder' in data.columns
 
@@ -75,6 +89,7 @@ def main():
 
     # -----------------------------
     # Setup logging
+    # Налаштування логування
     # -----------------------------
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     log_file = os.path.join(
@@ -95,6 +110,7 @@ def main():
 
     # -----------------------------
     # Download datasets
+    # Завантаження наборів даних
     # -----------------------------
     data_download = data[
         ~(data['Source Name'].isna() | data['Link'].isna())
